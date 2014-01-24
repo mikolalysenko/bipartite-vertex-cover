@@ -1,0 +1,43 @@
+{
+  "name": "bipartite-vertex-cover",
+  "version": "0.0.0",
+  "description": "Minimal vertex cover for bipartite graphs",
+  "main": "vcover.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bipartite-matching": "~0.0.1",
+    "iota-array": "~0.0.1",
+    "typedarray-pool": "~0.1.2"
+  },
+  "devDependencies": {
+    "tape": "~2.3.2",
+    "dup": "~0.0.0",
+    "tap": "~0.4.8"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/bipartite-vertex-cover.git"
+  },
+  "keywords": [
+    "vertex",
+    "cover",
+    "bipartite",
+    "graph",
+    "konig",
+    "theorem",
+    "edge",
+    "matching",
+    "dual"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/bipartite-vertex-cover/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/bipartite-vertex-cover"
+}

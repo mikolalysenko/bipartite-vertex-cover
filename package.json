@@ -1,15 +1,15 @@
 {
   "name": "bipartite-vertex-cover",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Minimal vertex cover for bipartite graphs",
   "main": "vcover.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "bipartite-matching": "~0.0.1",
-    "iota-array": "~0.0.1",
-    "typedarray-pool": "~0.1.2"
+    "bipartite-matching": "^1.0.0",
+    "iota-array": "^1.0.0",
+    "typedarray-pool": "^1.0.0"
   },
   "devDependencies": {
     "tape": "~2.3.2",
